@@ -99,3 +99,33 @@ header-mobile button{
     font-size: 0.9375rem;
     line-height: 1.625rem; 
 }
+
+.terceira > div {
+    display: flex;
+    align-items: center;
+    gap: 3.5rem;
+}
+
+.terceira img {
+    max-width: 6.25rem;
+}
+
+.terceira strong {
+    color: var(--prata);
+    font-size: 2rem;
+    line-height: 100%;
+}
+
+.teceira h2 {
+    color: var(--azul-escuro);
+    font-size: 1.125rem;
+    font-weight: 800;
+    line-height: 1.5rem;
+    margin-block: 0.6rem;
+}
+
+.terceira p{
+    font-size:0.9375rem;
+    line-height: 1.625rem;
+    color: var(--metal);
+}
