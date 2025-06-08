@@ -66,3 +66,36 @@ header-mobile button{
     letter-spacing: 0.275;
     line-height: 1.5rem;
 }
+
+.segunda {
+    background-color: var(--azul-escuro);
+    margin-bottom: 4rem;
+    padding: 1.5rem 1.3rem;
+}
+
+.bb{
+    border-bottom: 1px solid var(--metal);
+    margin-bottom: 1.55rem;
+    padding: 1.75rem;
+}
+
+.segunda h2{
+    color: var(--amarelo);
+    font-size: 2rem;
+    line-height: 100%;
+    margin-bottom: 2.2rem;
+}
+
+.segunda h3{
+    color: var(--branco);
+    font-size:1.25rem;
+    line-height: 1.5rem;
+    font-weight: 800;
+    margin-bottom: 0.5rem;
+}
+
+.segunda p{
+    color: var(--prata);
+    font-size: 0.9375rem;
+    line-height: 1.625rem; 
+}
