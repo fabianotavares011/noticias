@@ -2,6 +2,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "inter", sans-serif;
+    -webkit-font-smoothing: antialiased;
 }
 
 :root{
@@ -19,5 +21,48 @@ body{
 }
 
 header-mobile{
-    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+header-mobile button{
+    border: none;
+    background: none;
+}
+
+.primeira {
+    margin-bottom: 4rem;
+}
+
+.primeira img{
+    width: 100%;
+    margin-bottom: 1.5rem;
+}
+
+.primeira h1{
+    font-size: 2.5rem;
+    line-height: 100%;
+    color: var(--azul-escuro);
+    margin-bottom: 1rem;
+}
+
+.primeira p{
+    font-size:0.9375rem;
+    line-height: 1.625rem;
+    color: var(--metal);
+    margin-bottom: 1.5rem;
+}
+
+.primeira button{
+    padding: 0.75rem 2rem;
+    background-color: var(--vermelho);
+    border: none;
+    text-transform: uppercase;
+    color: var(--branco);
+    font-weight: 700;
+    font-size: 0.875;
+    letter-spacing: 0.275;
+    line-height: 1.5rem;
 }
