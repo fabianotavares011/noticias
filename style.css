@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --branco:#FFFDFA;
+    --azul-escuro:#00001A;
+    --metal:#5E607A;
+    --vermelho:#F15D51;
+    --amarelo:#E9AA52;
+    --prata:#C5C6CE;
+}
+
+body{
+    padding:1.75rem 1rem;
+    background-color: var(--branco);
+}
+
+header-mobile{
+    
+}
