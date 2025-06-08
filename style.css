@@ -20,6 +20,16 @@ body{
     background-color: var(--branco);
 }
 
+body.menu::before{
+    content: "";
+    position: absolute;
+    height: 100vh;
+    width: 100%;
+    background-color: rgba(0, 0, 26, 0.5);
+    top: 0;
+    left: 0;
+}
+
 header-mobile{
     display: flex;
     justify-content: space-between;
@@ -30,6 +40,35 @@ header-mobile{
 header-mobile button{
     border: none;
     background: none;
+    width: fit-content;
+}
+
+header-mobile nav{
+    position: fixed;
+    background-color: var(--branco);
+    right: 0;
+    top: 0;
+    height: 100vh;
+    width: 14rem;
+    z-index: 999;
+
+    display: flex;
+    flex-direction: column;
+    padding: 3.5rem;
+    gap: 1.5rem;
+    display: none;
+}
+
+.header-mobile nav button{
+    align-self: flex-end;
+    margin-bottom: 5.5rem;
+}
+
+.header-mobile nav a{
+    text-decoration: none;
+    color: var(--azul-escuro);
+    font-size: 1.125rem;
+    line-height: 5.5rem;
 }
 
 .primeira {
