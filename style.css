@@ -187,11 +187,32 @@ main{
     main {
         display:grid;
         grid-template-columns: 1fr 1fr 1fr;
+        gap: 1.75rem;
     }
 
     .primeira{
         grid-column: 1 / 3;
+
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        
+    }
+
+    .primeira picture{
+        grid-column: 1 / 3;
         gap: 1.75rem;
+    }
+
+    .primeira img {
+        margin: 0;
+    }
+
+    .primeira h1 {
+        font-size: 3.5rem;
+    }
+
+    .segunda h2{
+        font-size: 2.5rem;
     }
 
 
