@@ -80,6 +80,14 @@ header nav.mobile{
     line-height: 5.5rem;
 }
 
+header .desktop{
+    display: none;
+}
+
+header .desktop a::hover{
+    color: var(--vermelho);
+}
+
 main{
     max-width: 1110px;
     margin-inline: auto;
@@ -176,6 +184,9 @@ main{
     line-height: 1.5rem;
     margin-block: 0.6rem;
 }
+.terceira a {
+    text-decoration:  none;
+}
 
 .terceira p{
     font-size:0.9375rem;
@@ -211,8 +222,22 @@ main{
         font-size: 3.5rem;
     }
 
+    .primeira button :hover{
+        background-color: var(--azul-escuro);
+        cursor: pointer;
+    }
+
     .segunda h2{
         font-size: 2.5rem;
+    }
+
+    .terceira{
+        display: flex;
+        grid-column: 1 / 4;
+    }
+
+    .teceira a :hover{
+        color: var(--vermelho);
     }
 
 
